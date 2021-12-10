@@ -1,0 +1,63 @@
+Index: gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Wed Nov 10 08:02:30 COT 2021\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-7.0.2-bin.zip\r\ndistributionPath=wrapper/dists\r\nzipStorePath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+diff --git a/gradle/wrapper/gradle-wrapper.properties b/gradle/wrapper/gradle-wrapper.properties
+--- a/gradle/wrapper/gradle-wrapper.properties	(revision 17a7ee160f4188e8c8916df83efd1a8dbca4d27e)
++++ b/gradle/wrapper/gradle-wrapper.properties	(date 1639142030596)
+@@ -1,6 +1,6 @@
+-#Wed Nov 10 08:02:30 COT 2021
++#Tue Jan 12 18:01:58 CST 2021
+ distributionBase=GRADLE_USER_HOME
+-distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-bin.zip
+ distributionPath=wrapper/dists
+-zipStorePath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
++zipStorePath=wrapper/dists
++distributionUrl=https\://services.gradle.org/distributions/gradle-6.5-bin.zip
+Index: build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Top-level build file where you can add configuration options common to all sub-projects/modules.\r\nbuildscript {\r\n    repositories {\r\n        google()\r\n        mavenCentral()\r\n    }\r\n    dependencies {\r\n        classpath \"com.android.tools.build:gradle:7.0.3\"\r\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31\"\r\n\r\n        // NOTE: Do not place your application dependencies here; they belong\r\n        // in the individual module build.gradle files\r\n    }\r\n}\r\n\r\ntask clean(type: Delete) {\r\n    delete rootProject.buildDir\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/build.gradle b/build.gradle
+--- a/build.gradle	(revision 17a7ee160f4188e8c8916df83efd1a8dbca4d27e)
++++ b/build.gradle	(date 1639142035432)
+@@ -1,18 +1,27 @@
+ // Top-level build file where you can add configuration options common to all sub-projects/modules.
+ buildscript {
++    ext.kotlin_version = "1.4.21"
+     repositories {
+         google()
+-        mavenCentral()
++        jcenter()
+     }
+     dependencies {
+-        classpath "com.android.tools.build:gradle:7.0.3"
+-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.31"
+-
++        classpath "com.android.tools.build:gradle:4.1.1"
++        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
++        def nav_version = "2.3.2"
++        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+         // NOTE: Do not place your application dependencies here; they belong
+         // in the individual module build.gradle files
+     }
+ }
+ 
++allprojects {
++    repositories {
++        google()
++        jcenter()
++    }
++}
++
+ task clean(type: Delete) {
+     delete rootProject.buildDir
+ }
+\ No newline at end of file

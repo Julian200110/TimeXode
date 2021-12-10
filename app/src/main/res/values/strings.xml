@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TimeXode</string>
+    <string name="tv_primer_fragment">Plaza Botero</string>
+    <string name="tv_primer_fragment2">Plaza Botero De Medellin</string>
+    <string name="descripcion_plaza_botero">Monumentales figuras de bronce adornan con gracia las inmediaciones del Museo de Antioquia en uno de los lugares más icónicos y tradicionales de Medellín: El Parque Berrío, sede del único lugar al aire libre en el mundo que cuenta con 23 esculturas del Maestro Fernando Botero, las cuales fueron donadas en el 2002 a la ciudad y se convertirían en la excusa perfecta para inaugurar la Plaza de las Esculturas, o como todo el mundo la conoce en Medellín, La Plaza Botero. Allí, las esculturas de bronce son expresión viva de la sensualidad que el maestro Botero quiere expresar con su obra a través del volumen.</string>
+    <string name="tv_segundo_fragment">Lugares</string>
+    <string name="tv_tercer_fragment">Configuracion</string>
+    <string name="tv_cuarto_fragment">Cuarta Pantalla</string>
+    <string name="btn_global_action">Accion Global</string>
+    <string name="btn_deep_link">Deep Link</string>
+    <string name="title_header">TimeXode</string>
+    <string name="ubicacion">Ubicación: Av. Carabobo, Medellín, Antioquia</string>
+    <string name="temperatura">Temperatura: 23 °C</string>
+    <string name="inicio">Inicio</string>
+    <string name="lugares">Lugares</string>
+    <string name="Ayuda">Ayuda</string>
+
+    <!--Preferences -->[
+    <string name="notifications">Notificaciones</string>
+    <string name="sound">Sonido</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="configuracion">Configuracion</string>
+</resources>

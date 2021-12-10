@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/primerFragment">
+
+    <fragment
+        android:id="@+id/primerFragment"
+        android:name="com.projectar.timexode.PrimerFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_primer" />
+
+    <fragment
+        android:id="@+id/segundoFragment"
+        android:name="com.projectar.timexode.SegundoFragment"
+        android:label="Lugares"
+        tools:layout="@layout/fragment_segundo" />
+
+    <fragment
+        android:id="@+id/tercerFragment"
+        android:name="com.projectar.timexode.TercerFragment"
+        android:label="@string/Ayuda"
+        tools:layout="@layout/fragment_tercero" />
+
+    <fragment
+        android:id="@+id/cuartoFragment"
+        android:name="com.projectar.timexode.CuartoFragment"
+        android:label="Cuarta Pantalla"
+        tools:layout="@layout/fragment_cuarto" /><action android:id="@+id/action_global_cuartoFragment" app:destination="@id/cuartoFragment"/>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.projectar.timexode.SettingsFragment"
+        android:label="Configuracion" />
+</navigation>

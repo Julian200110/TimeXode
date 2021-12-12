@@ -4,4 +4,9 @@
         android:id="@+id/tercerFragment"
         android:title="@string/Ayuda"
         android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/configuracion"
+        android:icon="@drawable/ic_baseline_settings_24"/>
 </menu>

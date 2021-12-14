@@ -7,18 +7,30 @@
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/drawable/ic_baseline_location_city_24.xml" value="0.1296875" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1296875" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1296875" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.20921052631578949" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1296875" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout-v21/activity_main.xml" value="0.11354166666666667" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout-v21/fragment_tercero.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout-v23/fragment_primer.xml" value="0.23229166666666667" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/activity_news.xml" value="0.1956140350877193" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/activity_preference.xml" value="0.21920289855072464" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/activity_producto.xml" value="0.1956140350877193" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/activity_user.xml" value="0.19021739130434784" />
-        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_primer.xml" value="0.21467391304347827" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_cuarto.xml" value="0.1956140350877193" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_descripcion.xml" value="0.1837719298245614" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_lista.xml" value="0.1956140350877193" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_primer.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_segundo.xml" value="0.19021739130434784" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/fragment_tercero.xml" value="0.22192028985507245" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/item_producto.xml" value="0.1956140350877193" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/list_item.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/layout/nav_header.xml" value="0.11354166666666667" />
-        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/menu/main_menu.xml" value="0.264" />
-        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/menu/top_menu.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/menu/main_menu.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/menu/top_menu.xml" value="0.176" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/xml/preference.xml" value="0.21422101449275363" />
         <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/xml/preferences.xml" value="0.22192028985507245" />
-        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/xml/root_preferences.xml" value="0.264" />
+        <entry key="..\:/AndroidProjects/TimeXode/app/src/main/res/xml/root_preferences.xml" value="0.176" />
         <entry key="..\:/Tutorial-Navigation-Component-08-drawer-menu/NavigationComponent/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2484375" />
         <entry key="..\:/Tutorial-Navigation-Component-08-drawer-menu/NavigationComponent/app/src/main/res/drawable/ic_baseline_filter_1.xml" value="0.2484375" />
         <entry key="..\:/Tutorial-Navigation-Component-08-drawer-menu/NavigationComponent/app/src/main/res/drawable/ic_baseline_filter_2.xml" value="0.2484375" />

@@ -15,7 +15,7 @@
     <fragment
         android:id="@+id/segundoFragment"
         android:name="com.projectar.timexode.SegundoFragment"
-        android:label="Lugares"
+        android:label="@string/nosotros"
         tools:layout="@layout/fragment_segundo" />
 
     <fragment

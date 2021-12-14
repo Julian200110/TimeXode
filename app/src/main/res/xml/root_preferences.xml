@@ -2,10 +2,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
     <PreferenceCategory
         android:icon="@drawable/ic_baseline_settings_24"
-        app:title="@string/configuracion">
+        app:title="@string/Notificaciones">
 
         <CheckBoxPreference
             android:defaultValue="false"

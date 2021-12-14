@@ -24,11 +24,6 @@ class SegundoFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        binding.btnGlobalAction.setOnClickListener{
-            val action = NavGraphDirections.actionGlobalCuartoFragment()
-            findNavController().navigate(action)
-        }
     }
 
     override fun onDestroyView() {
